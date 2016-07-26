@@ -1,0 +1,78 @@
+{
+  "globals": {  /* custom */
+    /* MOCHA: http://stackoverflow.com/a/19572515/130638 */
+    "describe"   : false,
+    "it"         : false,
+    "before"     : false,
+    "beforeEach" : false,
+    "after"      : false,
+    "afterEach"  : false,
+    "JSON": true,
+    "alert": true,
+    "prompt": true,
+    "confirm": true,
+    "t"   : true,
+    "tn"   : true,
+    "th"   : true,
+    "tl"   : true,
+    "tmf"   : true,
+    "getLocale"   : true,
+    "getLocales"   : true
+  },
+  "-W030": true, //Expected an assignment or function call and instead saw an expression 
+  "asi": true,
+  "bitwise": false,
+  "boss": true,  /* custom */
+  "browser": true,  /* custom */
+  "camelcase": false,
+  "curly": false,  /* custom */
+  "debug": false,
+  "eqeqeq": true,
+  "eqnull": true,  /* custom */
+  //"es3": true,
+  "esversion": 6,
+  "esnext": false,
+  "evil": false,
+  "expr": false,
+  "forin": true,
+  "freeze": true,
+  "funcscope": false,
+  "gcl": false,
+  "globalstrict": false,
+  "immed": true,
+  "indent": 1,  /* custom */
+  "iterator": false,
+  "lastsemic": false,
+  "latedef": true,
+  "laxbreak": false,
+  "laxcomma": true,
+  "loopfunc": false,
+  "maxcomplexity": false,
+  "maxdepth": false,
+  "maxlen": false,
+  "maxparams": false,
+  "maxstatements": false,
+  "moz": false,
+  "multistr": false,
+  "newcap": false,
+  "noarg": true,
+  "node": true,  /* custom */
+  "noempty": true,
+  "nonbsp": true,
+  "nonew": true,
+  "notypeof": false,
+  "noyield": false,
+  "onevar": true,  /* custom */
+  "plusplus": false,  /* custom */
+  "proto": false,
+  "quotmark": false,
+  "scripturl": false,
+  "shadow": false,
+  "smarttabs": false,
+  "strict": false, /* enable later */
+  "sub": false,
+  "supernew": false,
+  "trailing": true,
+  "undef": true,
+  "unused": false
+}

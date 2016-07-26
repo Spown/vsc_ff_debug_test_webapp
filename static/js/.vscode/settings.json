@@ -1,0 +1,68 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	//-------- Sass configuration --------
+
+	// Controls problem severities used in the Sass lint validation.
+
+	// When using a vendor-specific prefix make sure to also include all other vendor-specific properties
+	"sass.lint.compatibleVendorPrefixes": "ignore",
+
+	// When using a vendor-specific prefix also include the standard property
+	"sass.lint.vendorPrefix": "warning",
+
+	// Do not use duplicate style definitions
+	"sass.lint.duplicateProperties": "ignore",
+
+	// Do not use empty rulesets
+	"sass.lint.emptyRules": "ignore",
+
+	// Import statements do not load in parallel
+	"sass.lint.importStatement": "ignore",
+
+	// Do not use width or height when using padding or border
+	"sass.lint.boxModel": "ignore",
+
+	// The universal selector (*) is known to be slow
+	"sass.lint.universalSelector": "ignore",
+
+	// No unit for zero needed
+	"sass.lint.zeroUnits": "ignore",
+
+	// @font-face rule must define 'src' and 'font-family' properties
+	"sass.lint.fontFaceProperties": "warning",
+
+	// Hex colors must consist of three or six hex numbers
+	"sass.lint.hexColorLength": "error",
+
+	// Invalid number of parameters
+	"sass.lint.argumentsInColorFunction": "error",
+
+	// Unknown property.
+	"sass.lint.unknownProperties": "ignore",
+
+	// IE hacks are only necessary when supporting IE7 and older
+	"sass.lint.ieHack": "ignore",
+
+	// Unknown vendor specific property.
+	"sass.lint.unknownVendorSpecificProperties": "ignore",
+
+	// Property is ignored due to the display. E.g. with 'display: inline', the width, height, margin-top, margin-bottom, and float properties have no effect
+	"sass.lint.propertyIgnoredDueToDisplay": "warning",
+
+	// Avoid using !important. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
+	"sass.lint.important": "ignore",
+
+	// Avoid using 'float'. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
+	"sass.lint.float": "ignore",
+
+	// Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
+	"sass.lint.idSelector": "ignore",
+	
+	"javascript.validate.lint.unusedVariables": "ignore",
+    "files.exclude": {
+        "**/public": true
+        //,"**/typings": true
+        ,"*.bat": true
+        ,"**/node_modules": true
+    }
+}
