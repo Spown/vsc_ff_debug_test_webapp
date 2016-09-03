@@ -22,7 +22,7 @@ app.get('/', (req, res, next)=>{ res.send(
     <title>VS Code Debug Adapter for Firefox test web app</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="/static/js/common.js"></script>
-    <script type="text/javascript" src="/static/js/index.js"></script>
+    <script type="text/javascript" src="/static/js/index.js?v=1.0"></script>
 </head>
 <body>
     <div id="output"></idv>
