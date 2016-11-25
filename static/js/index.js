@@ -2,7 +2,8 @@
 var sTime = $.now()
 ;
 $(document).ready(function () {
-    var o = $('#output')
+    var o = $('#output'),
+        n = $.now()-sTime
     ;
-    o.text('static/js/index.js: page readied in '+($.now()-sTime)+'ms.');
+    o.text('static/js/index.js: page readied in '+n+'ms.');
 });
