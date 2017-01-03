@@ -12,7 +12,17 @@
 				"consoleLevel": {
 					"default": "Error"
 				}
-			}
+			},
+			"skipFiles": [
+				"${workspaceRoot}/static/js/lib/**",
+				"**/static/js/lib/**",
+				"/static/js/lib/**",
+				"static/js/lib/**",
+				"**/static/js/lib/jquery-1.11.2.min.js",
+				"${workspaceRoot}/static/js/lib/jquery-1.11.2.min.js",
+				"/static/js/lib/jquery-1.11.2.min.js",
+				"static/js/lib/jquery-1.11.2.min.js"
+			]
 		}
 	]
 }
