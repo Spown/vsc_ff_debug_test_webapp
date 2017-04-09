@@ -22,10 +22,12 @@ app.get('/', (req, res, next)=>{ res.send(
     <title>VS Code Debug Adapter for Firefox test web app</title>
     <script src="/static/js/lib/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="/static/js/common.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?coordorder=longlat" type="text/javascript"></script>
     <script type="text/javascript" src="/static/js/index.js"></script>
 </head>
 <body>
     <div id="output"></idv>
+    <div id="main_map"></div>
 </body>
 </html>`
 ) })
